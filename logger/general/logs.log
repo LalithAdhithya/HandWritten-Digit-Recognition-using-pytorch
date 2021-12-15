@@ -1,0 +1,42 @@
+[2021-11-01 10:41:09.402 - INFO - training ] - Training Started
+[2021-11-01 10:41:09.402 - INFO - data_mgmt ] - Loading Dataset {IF Data present use it else download}
+[2021-11-01 10:41:09.481 - INFO - data_mgmt ] - Data Loading Successful
+[2021-11-01 10:41:09.481 - INFO - training ] - Checking and Fetching Data
+[2021-11-01 10:41:09.481 - INFO - data_mgmt ] - Creating data Loader
+[2021-11-01 10:41:09.481 - INFO - data_mgmt ] - Logger Created and Returned
+[2021-11-01 10:41:09.481 - INFO - training ] - Model Created NeuralNetwork(
+  (layers): Sequential(
+    (0): Linear(in_features=784, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=128, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
+[2021-11-01 10:41:09.481 - INFO - training ] - Loss Function and Optimizer Created
+[2021-11-01 10:41:09.481 - INFO - training ] - Using cpu for training 
+[2021-11-01 10:41:09.481 - INFO - training ] - Epoch 1/1 
+[2021-11-01 10:41:09.512 - INFO - training ] - Batch 0 Loss 2.2899 Accuracy 0.1875
+[2021-11-01 10:41:10.485 - INFO - training ] - Batch 100 Loss 0.2941 Accuracy 0.9375
+[2021-11-01 10:41:11.442 - INFO - training ] - Batch 200 Loss 0.4236 Accuracy 0.8438
+[2021-11-01 10:41:12.494 - INFO - training ] - Batch 300 Loss 0.2533 Accuracy 0.9062
+[2021-11-01 10:41:13.451 - INFO - training ] - Batch 400 Loss 0.1905 Accuracy 0.9688
+[2021-11-01 10:41:14.315 - INFO - training ] - Batch 500 Loss 0.3039 Accuracy 0.9062
+[2021-11-01 10:41:15.225 - INFO - training ] - Batch 600 Loss 0.1750 Accuracy 0.9688
+[2021-11-01 10:41:16.185 - INFO - training ] - Batch 700 Loss 0.1194 Accuracy 0.9688
+[2021-11-01 10:41:17.171 - INFO - training ] - Batch 800 Loss 0.1472 Accuracy 0.9688
+[2021-11-01 10:41:18.160 - INFO - training ] - Batch 900 Loss 0.4693 Accuracy 0.8438
+[2021-11-01 10:41:19.149 - INFO - training ] - Batch 1000 Loss 0.1933 Accuracy 0.9375
+[2021-11-01 10:41:20.153 - INFO - training ] - Batch 1100 Loss 0.4084 Accuracy 0.9375
+[2021-11-01 10:41:21.251 - INFO - training ] - Batch 1200 Loss 0.2853 Accuracy 0.9375
+[2021-11-01 10:41:22.240 - INFO - training ] - Batch 1300 Loss 0.3113 Accuracy 0.8750
+[2021-11-01 10:41:23.213 - INFO - training ] - Batch 1400 Loss 0.1634 Accuracy 0.9375
+[2021-11-01 10:41:24.139 - INFO - training ] - Batch 1500 Loss 0.2073 Accuracy 0.9375
+[2021-11-01 10:41:25.190 - INFO - training ] - Batch 1600 Loss 0.2268 Accuracy 0.9062
+[2021-11-01 10:41:26.241 - INFO - training ] - Batch 1700 Loss 0.1672 Accuracy 0.9375
+[2021-11-01 10:41:27.262 - INFO - training ] - Batch 1800 Loss 0.0258 Accuracy 1.0000
+[2021-11-01 10:41:28.046 - INFO - data_mgmt ] - Saving Plots
+[2021-11-01 10:41:28.407 - INFO - data_mgmt ] - Plots Saved
+[2021-11-01 10:41:30.243 - INFO - training ] - Test Loss : 0.1133 Test_accuracy : 0.9623
+[2021-11-01 10:41:30.243 - INFO - data_mgmt ] - Saving Model
+[2021-11-01 10:41:30.243 - INFO - data_mgmt ] - Model saved
