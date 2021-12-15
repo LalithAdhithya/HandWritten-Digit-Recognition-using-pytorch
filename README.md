@@ -1,2 +1,2 @@
 # HandWritten-Digit-Recognition-Pytorch
-Ann implementation of HandWritten-Digit-Recognition using Pytorch 
+HandWritten-Digit-Recognition using Pytorch 
